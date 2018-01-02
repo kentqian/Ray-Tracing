@@ -43,11 +43,11 @@ I/O functions for .bmp files.
 # References
 
 (1) BSP tree: (Traversal function does not work very well, while AABB tree was completely implemented)
--AABB tree is based on the surface area and depth of node as search heuristics. 
--Reference: https://github.com/JamesRandall/SimpleVoxelEngine/blob/master/voxelEngine/src/AABBTree.cpp
+- AABB tree is based on the surface area and depth of node as search heuristics. 
+- Reference: https://github.com/JamesRandall/SimpleVoxelEngine/blob/master/voxelEngine/src/AABBTree.cpp
 
 (2) Cylinder: 
--Reference: http://woo4.me/wootracer/cylinder-intersection/
+- Reference: http://woo4.me/wootracer/cylinder-intersection/
 
 (3) Anti-Aliasing:  
 - Anti-Aliasing is implemented by using the supersampling method. 
@@ -60,7 +60,7 @@ I/O functions for .bmp files.
 (5) Texture Mapping
 - A square and sphere texture mappings are implemented, and each is controlled by a flag in Intersection struct, hence, you can see both texture mapping by setting until.n file, texture_flag to true, and square_texture or sphere_texture to true depends on what you want to map. Setting texture_flag to false will disable the texture mapping for all objects. 
 - The overall method to produce texture mapping is to map every point on an object to a pixel on the image, then get the colour of the pixel and shade. 
-	- Reference:  https://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.html#texturemap
+	- Reference: https://www.cs.unc.edu/~rademach/xroads-RT/RTarticle.html#texturemap
 
 
 [ray tracing]: <https://en.wikipedia.org/wiki/Ray_tracing_(graphics)>
