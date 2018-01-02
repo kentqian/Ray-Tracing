@@ -2,7 +2,7 @@
 
 This is an advanced [ray tracing] demo based on Phong's shading, implementing various physical features, such as reflection, compound object(cylinders, balls, planes), anti-aliasing, soft shadows and texture mapping.
 
-#  File Structure
+#  File Structure:
 
 (1) Cylinder: Done in scene_object.cpp, Unitcylinder() function
 
@@ -40,7 +40,7 @@ between the ray and the primitive.
 bmp_io.{cpp, h}
 I/O functions for .bmp files.
 
-# References
+# References:
 
 (1) BSP tree: (Traversal function does not work very well, while AABB tree was completely implemented)
 - AABB tree is based on the surface area and depth of node as search heuristics. 
