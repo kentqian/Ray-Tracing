@@ -44,18 +44,15 @@ I/O functions for .bmp files.
 
 (1) BSP tree: (Traversal function does not work very well, while AABB tree was completely implemented)
 -AABB tree is based on the surface area and depth of node as search heuristics. 
--Reference:
-https://github.com/JamesRandall/SimpleVoxelEngine/blob/master/voxelEngine/src/AABBTree.cpp
+-Reference: https://github.com/JamesRandall/SimpleVoxelEngine/blob/master/voxelEngine/src/AABBTree.cpp
 
 (2) Cylinder: 
--Reference:
-http://woo4.me/wootracer/cylinder-intersection/
+-Reference: http://woo4.me/wootracer/cylinder-intersection/
 
 (3) Anti-Aliasing:  
 - Anti-Aliasing is implemented by using the supersampling method. 
 - To see the Anti-Aliasing effect, change the boolean ANTI_ALIASING to true (in raytracer.cpp on the top). 
-- Reference: 
-https://www.ics.uci.edu/~gopi/CS211B/RayTracing%20tutorial.pdf (Page 12)
+- Reference: https://www.ics.uci.edu/~gopi/CS211B/RayTracing%20tutorial.pdf (Page 12)
 
 (4) Soft Shadow
 - Soft Shadow is implemented by sampling the light direction with random jitter
