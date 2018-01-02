@@ -1,6 +1,6 @@
 # Introduction:
 
-This is an advanced ray tracing demo based on Phong's shading, implementing various physical features, such as reflection, compound object(cylinders, balls, planes), anti-aliasing, soft shadows and texture mapping.
+This is an advanced [ray tracing] demo based on Phong's shading, implementing various physical features, such as reflection, compound object(cylinders, balls, planes), anti-aliasing, soft shadows and texture mapping.
 
 #  File Structure
 
@@ -52,7 +52,6 @@ https://github.com/JamesRandall/SimpleVoxelEngine/blob/master/voxelEngine/src/AA
 https://www.ics.uci.edu/~gopi/CS211B/RayTracing%20tutorial.pdf (Page 12)
 (4) Soft Shadow
 	- Soft Shadow is implemented by sampling the light direction with random jitter
-
 (5) Texture Mapping
 - A square and sphere texture mappings are implemented, and each is controlled by a flag in Intersection struct, hence, you can see both texture mapping by setting until.n file, texture_flag to true, and square_texture or sphere_texture to true depends on what you want to map. Setting texture_flag to false will disable the texture mapping for all objects. 
 - The overall method to produce texture mapping is to map every point on an object to a pixel on the image, then get the colour of the pixel and shade. 
